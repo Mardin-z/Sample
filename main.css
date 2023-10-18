@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  display: inline-block;
+}
+header.header-in {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  width: 100%;
+  background-color: var(--header);
+}
+.logo {
+  float: left;
+  height: 30px;
+  margin-top: -1px;
+  margin-left: 5px;
+}
+.logotype {
+  color: var(--white);
+  font-family: "Teko";
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 48px;
+}
+.menu-center {
+  text-align: center;
+  margin: -25px;
+  color: var(--white);
+  font-family: "BalooBhai";
+  font-weight: "100";
+}
+.menu {
+  margin: 0px 20px 0px 20px;
+}
+a {
+  color: var(--white);
+  text-decoration: none;
+}
+.inp-right {
+  float: right;
+  margin-right: 20px;
+  margin-top: -5px;
+}
+.inp-1 {
+  background-color: var(--white);
+  color: var(--header);
+  font-family: "BalooBhai";
+  border: 0;
+  padding: 5px;
+  width: 80px;
+  border-radius: 20px;
+  margin-right: 8px;
+}
+.inp-2 {
+  background-color: var(--white);
+  color: var(--header);
+  font-family: "BalooBhai";
+  border: 0;
+  padding: 5px;
+  width: 80px;
+  border-radius: 20px;
+}
+.inp-1:hover,
+.inp-2:hover {
+  background-color: var(--white);
+  color: var(--header);
+  font-family: "BalooBhai";
+  border: 0;
+  padding: 5px;
+  width: 80px;
+  border-radius: 10px;
+}
+.watch {
+  background-color: var(--black);
+  text-align: center;
+  height: 400px;
+  width: 100%;
+  margin-top: 0px;
+}
+.text-of-attack {
+  margin-top: 50px;
+  color: var(--white);
+  font-family: "BalooBhai";
+  font-size: 20px;
+}
+.attack-poster {
+  height: 315px;
+}
+.popular-section {
+  background-color: var(--blue);
+  height: 650px;
+  width: 100%;
+  margin-top: -20px;
+}
+.popular-section-title {
+  text-align: center;
+  font-family: "BalooBhai";
+  color: var(--white);
+  margin-top: 10px;
+  font-size: 30px;
+}
+.hr-1 {
+  width: 50%;
+}
+.images {
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 600px;
+  margin: 20px;
+}
+.img1,
+.img2,
+.img3,
+.img4,
+.img5 {
+  height: 160px;
+  width: 280px;
+  size: 20px;
+  margin-right: 5px;
+  border-radius: 20px;
+}
+figcaption {
+  text-align: center;
+  font-family: "BalooBhai";
+  font-size: 25px;
+  color: var(--white);
+}
+.plansss {
+  color: var(--blue);
+  text-align: center;
+  font-family: "BalooBhai";
+  font-size: 35px;
+}
+.hr-4 {
+  color: var(--blue);
+  width: 25%;
+}
+.table-secton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 50px;
+}
+.table-1,
+.table-2,
+.table-3 {
+  margin-left: 60px;
+  border: 2px solid var(--blue);
+  border-radius: 20px;
+  width: 200px;
+  height: 320px;
+  -webkit-box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 6px 0 rgba(0, 0, 0, 0.4);
+}
+.title-table {
+  font-family: "BalooBhai";
+  color: var(--blue);
+  text-align: center;
+  margin-top: 3px;
+}
+.price {
+  font-family: "BalooBhai";
+  color: var(--black);
+  font-weight: 600;
+  text-align: center;
+}
+.table-ul {
+  font-family: "BalooBhai";
+  font-weight: 800;
+  color: var(--blue);
+}
+.footer-in {
+  margin-top: 50px;
+  margin-bottom: 0;
+  height: 50px;
+  width: 100%;
+  background-color: var(--header);
+}
+.logo-footer {
+  float: left;
+  height: 30px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+.logotype-footer {
+  color: var(--white);
+  font-family: "Teko";
+  font-size: 20px;
+  position: absolute;
+  top: 1652px;
+  left: 55px;
+}
+div.footer-center {
+  font-family: "BalooBhai";
+  font-weight: 500;
+  color: var(--white);
+  position: absolute;
+  margin-top: 12px;
+  margin-left: 150px;
+}
+.footer {
+  margin-left: 50px;
+}
